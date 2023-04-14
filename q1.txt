@@ -10,3 +10,11 @@ git commit -m"C"
 git merge develop
 git add .
 git commit -m"D"
+git checkout develop
+git add .
+git commit -m"E"
+git checkout master
+git merge develop
+git add .
+git commit -m"F"
+git checkout develop
