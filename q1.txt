@@ -4,3 +4,12 @@ git branch develop
 git checkout develop
 git add .
 git commit -m"B"
+git checkout master
+git add .
+git commit -m"C"
+git merge develop
+git add .
+git commit -m"D"
+git checkout develop
+git add .
+git commit -m"E"
