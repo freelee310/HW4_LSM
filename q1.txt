@@ -1,2 +1,9 @@
 git add q1.txt
 git commit -m"A"
+git branch develop
+git checkout develop
+git add .
+git commit -m"B"
+git checkout master
+git add .
+git commit -m"C"
